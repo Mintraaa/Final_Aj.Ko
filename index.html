@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Matching Platform</title>
+<style>
+    /* CSS สำหรับการจัดรูปแบบหน้าเว็บ */
+</style>
+</head>
+<body>
+<h1>Matching Platform</h1>
+
+<div id="matches"></div>
+
+<div id="businessForm">
+    <h2>Business Information</h2>
+    <label for="businessName">Business Name:</label>
+    <input type="text" id="businessName" name="businessName"><br><br>
+    <label for="internExpertise">Desired Intern Expertise:</label>
+    <select id="internExpertise" name="internExpertise">
+        <option value="Marketing">Marketing</option>
+        <option value="Finance">Finance</option>
+        <option value="Sales">Sales</option>
+        <option value="Technology">Technology</option>
+        <option value="Design">Design</option>
+        <option value="Design">Language</option>
+        <!-- เพิ่มตัวเลือกเพิ่มเติมตามความเหมาะสม -->
+    </select><br><br>
+    <!-- เพิ่มฟอร์มเพิ่มเติมตามต้องการ -->
+</div>
+
+<div id="internForm">
+    <h2>Intern Information</h2>
+    <label for="internName">Intern Name:</label>
+    <input type="text" id="internName" name="internName"><br><br>
+    <label for="internSkills">Skills:</label>
+    <select id="internSkills" name="internSkills">
+        <option value="Marketing">Marketing</option>
+        <option value="Technology">Technology</option>
+        <option value="Design">Design</option>
+        <option value="Finance">Finance</option>
+        <option value="Sales">Sales</option>
+        <option value="Design">Language</option>
+        <!-- เพิ่มตัวเลือกเพิ่มเติมตามความเหมาะสม -->
+    </select><br><br>
+    <!-- เพิ่มฟอร์มเพิ่มเติมตามต้องการ -->
+</div>
+
+
+<div>
+    <button onclick="matchPairs()">Match</button>
+</div>
+</body>
+</html>
